@@ -25,3 +25,27 @@
     font-size: 20px;
     padding-bottom: 100px;
 }
+
+#projects {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.projects-title{
+    font-size: 130px;
+    color:palevioletred;
+}
+
+.project-images {
+    width: 100%;
+    max-width: 400px;
+}
+
+.row > * {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.projects-container{
+   padding: 50px !important;
+}
