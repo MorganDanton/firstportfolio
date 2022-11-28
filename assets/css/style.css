@@ -2,24 +2,25 @@
     text-align: center;
 }
 
-.about-title{
+.about-title {
     margin: 30px;
     font-family: 'Dancing Script', cursive;
     font-size: 130px;
     color: lightpink;
 }
 
-.kitty-container{
+.kitty-container {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.kitty{
+.kitty {
     width: 100%;
     max-width: 400px;
 }
-.card-text{
+
+.card-text {
     margin: 60px;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
@@ -31,9 +32,9 @@
     font-family: 'Dancing Script', cursive;
 }
 
-.projects-title{
+.projects-title {
     font-size: 130px;
-    color:palevioletred;
+    color: palevioletred;
 }
 
 .project-images {
@@ -41,11 +42,83 @@
     max-width: 400px;
 }
 
-.row > * {
+.row>* {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
 
-.projects-container{
-   padding: 50px !important;
+.projects-container {
+    padding: 50px !important;
 }
+
+.contact-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+    color: lightpink;
+    text-align: center;
+}
+
+.contact-card {
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box {
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.context-box {
+   height: 150px; 
+}
+
+.kitty-btn {
+    border: none;
+    padding: 10px;
+    background-color: pink;
+}
+
+.kitty-btn:hover {
+    background-color: rgb(255, 103, 128);
+}
+
+@media screen and (max-width: 770px) {
+
+    .projects-title {
+        font-size: 90px
+    }
+
+    .about-title {
+        font-size: 90px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 545px) {
+
+    .card {
+        padding: 10px;
+    }
+
+    .card-text {
+        margin: 10px;
+
+    }
+}
+    @media screen and (max-width: 500px) {
+        .projects-title {
+            font-size: 60px;
+        }
+
+        .about-title {
+            font-size: 60px;
+        }
+
+    }
